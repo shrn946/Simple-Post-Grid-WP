@@ -45,10 +45,10 @@ function custom_post_grid_shortcode($atts) {
         $posts_query->the_post();
 
         // Get post data
-        $post_date      = get_the_date('j M Y');
+      $post_date = get_the_date('M j, Y'); // Example: Nov 1, 2023
         $author_name    = get_the_author();
         $post_title     = get_the_title();
-        $post_content   = wp_trim_words(get_the_content(), 20); // Limit content to 17 words
+        $post_content   = wp_trim_words(get_the_content(), 15); // Limit content to 17 words
         $post_permalink = get_permalink();
         $post_bg_image  = get_the_post_thumbnail_url(get_the_ID(), 'full');
 
