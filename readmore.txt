@@ -1,9 +1,8 @@
 === Simple Post Grid | Card Style  ===
 
-
+Simple Post Grid | Card Style is a versatile WordPress plugin that empowers you to effortlessly showcase your posts in a visually appealing card-style grid. 
 
 [custom_post_grid include_category="category1" exclude_category="category2" posts_per_page="5"]
-
 
 Tags: masonry, grid, layout, plugin, wordpress, responsive, filterable, dynamic grid, image gallery
 Contributors: YourPluginAuthor
