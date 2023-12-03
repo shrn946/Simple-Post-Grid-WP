@@ -1,4 +1,4 @@
-=== Masonry Grid - WordPress Grid Layout Plugin ===
+=== Simple Post Grid | Card Style  ===
 
 
 
