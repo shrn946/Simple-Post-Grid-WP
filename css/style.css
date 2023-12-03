@@ -1,18 +1,22 @@
 
 /* Base styling for larger screens */
 
-
-
 .card {
     float: left;
     padding: 0 0.3rem;
-    width: 32%;
+    width: 25%;
     margin-bottom: 18px;
 }
 .title a {
     text-decoration: none;
 }
 /* Responsive styling for tablets */
+@media screen and (max-width:1024px) {
+  .card {
+        width: 50%; /* Adjust width for tablets */
+    }
+
+}
 @media screen and (max-width: 768px) {
 .card .text {
     height: 80px;
@@ -102,13 +106,14 @@
 }
 .card .title {
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 15px;
 }
 .card .text {
     height: 70px;
     margin: 0;
     font-size: 14px;
+
 }
 .card input[type=checkbox] {
   display: none;
